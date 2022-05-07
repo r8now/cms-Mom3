@@ -10,10 +10,8 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="<?php get_template_directory_uri();?>images/favicon-32x32.png">
 
-
-    <title><?php bloginfo('name'); ?></title>
-
     <?php wp_head(); ?>
+    <title><?php bloginfo('name'); ?></title>
 </head>
 
 <body>

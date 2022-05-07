@@ -42,3 +42,10 @@ function slide_widget_init(){
         'name' => 'Slide Widget',
         'id' => 'slide-widget',   
     ));}
+
+    //inställningar för att visa titeln på sidorna
+    function skog_features(){
+        add_theme_support('title-tag');
+    }
+
+    add_action('after_setup_theme','skog_features');
