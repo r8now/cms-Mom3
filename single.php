@@ -13,10 +13,14 @@
         while (have_posts()) {
             the_post();
              //Om det finns en bild, skriv ut i så fall
+             ?>
+            <article>
+                <div class="article-1">
+                    <?php
         if (has_post_thumbnail()) {
             ?>
             <article>
-            <div class="article-1">
+            <div class="article-2">
 <?php
             the_post_thumbnail();
         }
@@ -24,13 +28,9 @@
     
          
                     <?php
-                    
                     the_content();
                  
                     ?>
-
-
-
 
                 </div>
             </article>

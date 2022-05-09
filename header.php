@@ -21,7 +21,7 @@
         <div class="flex">
 
             <a href="<?=get_home_url(); ?>">
-                <br> <br>
+               
                 <img class="logo" src="<?= get_template_directory_uri(); ?>/images/miniskog.png" alt="Logo, tre träd">
             </a>
 
@@ -39,7 +39,5 @@
     <div class="headimage 1"> <img class="headimage" src="<?= get_template_directory_uri(); ?>/images/träd1100-300.jpg" alt=""></div>
 
 
-
-    <br>
     <main>
   <!--  <div class="container"> -->

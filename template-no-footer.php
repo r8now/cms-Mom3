@@ -1,9 +1,16 @@
+<?php 
+/*
+Template Name: No-Footer-template
+
+*/ 
+
+?>
 <?php get_header(); ?>
 <!-- Main content -->
 
 
 <br>
-<h2>Page.php for single PAGES!</h2>
+<h2>No-footer-template</h2>
 <?php
 if (have_posts()) {
     while (have_posts()) {
@@ -22,4 +29,8 @@ if (have_posts()) {
 ?>
 
 <!-- Main ends-->
-<?php get_footer(); ?>
+    <!--  </div> --> <!-- /.container -->
+</main>
+  </body>
+  
+  </html>

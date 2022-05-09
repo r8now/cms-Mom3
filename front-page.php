@@ -4,7 +4,6 @@
 
 <h1><?php the_title(); ?></h1>
 
-<br>
 <?php
 query_posts('category_name=nyheter&posts_per_page=2');
 if (have_posts()) {
