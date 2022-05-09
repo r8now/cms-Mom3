@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 <!-- Main content -->
-<p>FRONT-PAGE.php</p>
 
 <h1><?php the_title(); ?></h1>
 

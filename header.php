@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
 
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php get_template_directory_uri();?>images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php get_template_directory_uri();?>/images/favicon-32x32.png">
 
     <?php wp_head(); ?>
     <title><?php bloginfo('name'); ?></title>
@@ -22,7 +22,7 @@
 
             <a href="<?=get_home_url(); ?>">
                
-                <img class="logo" src="<?= get_template_directory_uri(); ?>/images/miniskog.png" alt="Logo, tre träd">
+                <img class="logo" src="<?= get_template_directory_uri();?>/images/miniskog.png" alt="Logo, tre träd">
             </a>
 
            <ul>

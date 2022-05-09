@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 <!-- Main content -->
 
-<p>SINGEL.PHP for single POSTS!</p>
 <h1><?php the_title(); ?></h1>
 
 <!-- Container -->

@@ -3,7 +3,6 @@
 
 
 <br>
-<h2>Page.php for single PAGESs!</h2>
 <?php
 if (have_posts()) {
     while (have_posts()) {

@@ -10,7 +10,6 @@ Template Name: No-Footer-template
 
 
 <br>
-<h2>No-footer-template</h2>
 <?php
 if (have_posts()) {
     while (have_posts()) {
