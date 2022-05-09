@@ -3,7 +3,7 @@
 
 
 <br>
-<h2>Page.php for single PAGES!</h2>
+<h2>Page.php for single PAGESs!</h2>
 <?php
 if (have_posts()) {
     while (have_posts()) {
@@ -11,11 +11,11 @@ if (have_posts()) {
         ?>
 <h1 id="h1"> 
         <?php the_title(); ?> </h1>
-        <article>
+        <form>
         <?php
         the_content();
         ?>
-        </article>
+        </form>
         <?php
     }
 }

@@ -1,9 +1,7 @@
 <?php get_header(); ?>
 <!-- Main content
 
-https://play.miun.se/media/DT152G+-+Grupp%C3%B6vning+2/0_1gafji0m
 
-32min
 
 
 
@@ -41,6 +39,8 @@ https://play.miun.se/media/DT152G+-+Grupp%C3%B6vning+2/0_1gafji0m
                       
 
                 </div>
+        
+                
             </article>
 
 

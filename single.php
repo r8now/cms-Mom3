@@ -19,8 +19,8 @@
                     <?php
         if (has_post_thumbnail()) {
             ?>
-            <article>
-            <div class="article-2">
+        
+           
 <?php
             the_post_thumbnail();
         }
@@ -33,8 +33,10 @@
                     ?>
 
                 </div>
+                    <div class="article-2"> <?php get_the_content(); ?></div>
+                    </div>
             </article>
-</div>
+
 
 <?php
         }
