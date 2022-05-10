@@ -10,11 +10,11 @@ if (have_posts()) {
         ?>
 <h1 id="h1"> 
         <?php the_title(); ?> </h1>
-        <form>
+        <div class="page">
         <?php
         the_content();
         ?>
-        </form>
+        </div>
         <?php
     }
 }

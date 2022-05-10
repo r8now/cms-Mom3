@@ -20,7 +20,7 @@
 
         <div class="flex">
 
-            <a href="<?=get_home_url(); ?>">
+            <a id="logo-a" href="<?=get_home_url(); ?>">
                
                 <img class="logo" src="<?= get_template_directory_uri();?>/images/miniskog.png" alt="Logo, tre träd">
             </a>

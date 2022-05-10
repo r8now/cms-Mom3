@@ -19,17 +19,34 @@ body {
   align-items: center;
   min-width: 100px;
   max-width:250px;
+  max-height: 75px;
   box-shadow:0px 0px;
   border-radius: 0px;
 }
-
+#logo-a{
+  margin-left: 0px;
+  padding-left: 0px;
+ 
+}
 .logo a{
 
   border-bottom: none;
 
  
 }
+.front-page{
+  max-width: 650px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
 
+}
+
+.front-page img{
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border: 1px solid black;
+}
 
 ul{
   list-style: none;
@@ -211,10 +228,11 @@ textarea {
 
   max-width: 100%;
 }
-form{
+.page{
   max-width: 500px;
     margin: 0 auto;
       padding: 0;
+      text-align: center;
 }
 
 footer{
@@ -292,6 +310,11 @@ padding:15px;
   font-size: 10px;
     padding: 0px;
   }
+
+
+#logo-a{
+  display: none;
+}
   h1,h2 {
 
     font-size: 18px;

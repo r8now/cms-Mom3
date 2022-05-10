@@ -4,23 +4,32 @@
 <h1><?php the_title(); ?></h1>
 
 <?php
-query_posts('category_name=nyheter&posts_per_page=2');
+query_posts('posts_per_page=1');
 if (have_posts()) {
     while (have_posts()) {
         the_post();
         //Om det finns en bild, skriv ut i så fall
         if (has_post_thumbnail()) {
             the_post_thumbnail();
-            the_content();
-            
+        }
+
             ?>
+            <div class="front-page">
+        
+              <?php
+            the_content(); ?>
+
+        
+                
+    
         <p><a href="<?php the_permalink();?>">Läs mer</a></p>
+        </div>
 <?php
         }
         ?>
 <?php
         }
-    }
+    
 
 ?>
 <!-- Widget area-->
